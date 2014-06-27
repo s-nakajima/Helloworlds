@@ -22,8 +22,7 @@ App::uses('HelloworldsAppController', 'Helloworlds.Controller');
  *
  * @author      Shohei Nakajima <nakajimashouhei@gmail.com>
  * @since       NetCommons 3.0.0.0
- * @package     app.Plugin.Helloworlds.Controller
- */
+ * @package     app.Plugin.Helloworlds.Controller */
 class HelloworldsController extends HelloworldsAppController {
 
 /**
@@ -36,3 +35,4 @@ class HelloworldsController extends HelloworldsAppController {
 	public $scaffold;
 
 }
+

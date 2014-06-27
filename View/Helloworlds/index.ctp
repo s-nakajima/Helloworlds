@@ -42,7 +42,7 @@
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $helloworld['Helloworld']['id']), null, __('Are you sure you want to delete # %s?', $helloworld['Helloworld']['id'])); ?>
 		</td>
 	</tr>
-<?php endforeach; ?>
+	<?php endforeach; ?>
 	</table>
 	<p>
 	<?php

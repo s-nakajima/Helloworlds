@@ -1,13 +1,16 @@
 <?php
 /**
-/**
  * Todo: ここは先生に書いてもらう
  *
  * HelloworldFixture
  *
+ * @author      Noriko Arai <arai@nii.ac.jp>
  * @author      Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @link        http://www.netcommons.org NetCommons Project
+ * @license     http://www.netcommons.org/license.txt NetCommons License
+ * @copyright   Copyright 2014, NetCommons Project
  * @since       NetCommons 3.0.0.0
- * @package     app.Plugin..Test.Fixture
+ * @package     app.Plugin.Helloworld.Test.Fixture
  */
 
 /**
@@ -17,7 +20,7 @@
  *
  * @author      Shohei Nakajima <nakajimashouhei@gmail.com>
  * @since       NetCommons 3.0.0.0
- * @package     app.Plugin..Test.Case
+ * @package     app.Plugin.Helloworld.Test.Case
  */
 class HelloworldFixture extends CakeTestFixture {
 
@@ -54,8 +57,8 @@ class HelloworldFixture extends CakeTestFixture {
 			'block_id' => 1,
 			'title' => 'Lorem ipsum dolor sit amet',
 			'body' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-			'created' => '2014-06-22 08:02:11',
-			'modified' => '2014-06-22 08:02:11'
+			'created' => '2014-06-27 07:49:20',
+			'modified' => '2014-06-27 07:49:20'
 		),
 	);
 

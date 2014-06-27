@@ -14,7 +14,7 @@
  */
 ?>
 
-<div class="helloworlds view">
+<div class="helloworlds-view">
 <h2><?php echo __('Helloworld'); ?></h2>
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>
