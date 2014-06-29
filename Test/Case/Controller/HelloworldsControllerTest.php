@@ -39,4 +39,27 @@ class HelloworldsControllerTest extends ControllerTestCase {
 		'plugin.helloworlds.site_setting_value'
 	);
 
+/**
+ * setUp
+ *
+ * @author   Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @since    NetCommons 3.0.0.0
+ * @return   void
+ */
+	public function setUp() {
+		parent::setUp();
+	}
+
+/**
+ * index
+ *
+ * @author   Shohei Nakajima <nakajimashouhei@gmail.com>
+ * @since    NetCommons 3.0.0.0
+ * @return   void
+ */
+	public function testIndex() {
+		$this->testAction('/helloworlds/helloworlds/index', array('method' => 'get'));
+		$this->assertTextNotContains('ERROR', $this->view);
+	}
+
 }

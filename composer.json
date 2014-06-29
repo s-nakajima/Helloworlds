@@ -1,0 +1,40 @@
+{
+    "name":        "s-nakajima/helloworlds",
+    "description": "Helloworlds Plugin for CakePHP",
+    "type":        "cakephp-plugin",
+    "keywords":    ["cakephp", "helloworlds"],
+    "homepage":    "http://www.netcommons.org/",
+    "license":     "NetCommons License",
+    "authors": [
+        {
+            "name":     "NetCommons Community",
+            "homepage": "https://github.com/s-nakajima/Helloworlds/graphs/contributors"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": ["type:cakephp-plugin"]
+        }
+    },
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/s-nakajima/Helloworlds.git"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp":        "~2.4",
+        "cakephp/debug_kit":      "~2.2",
+        "cakedc/migrations":      "~2.2",
+        "twbs/bootstrap":         "~3.1",
+        "components/jquery":      "~2.1"
+    },
+    "require-dev": {
+        "netcommons/frames":      "dev-master",
+        "mustangostang/spyc":     "dev-master",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "config": {
+        "vendor-dir": "vendors"
+    }
+}
