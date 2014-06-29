@@ -1,4 +1,4 @@
 Helloworlds
 ===========
 
-Helloworlds for NetCommons3 plugin
+Helloworlds plugin for NetCommons3
