@@ -2,6 +2,7 @@
     "name": "s-nakajima/helloworlds",
     "description": "Helloworlds Plugin for NetCommons3",
     "license": "NetCommons License",
+    "type":        "cakephp-plugin",
     "authors": [
         {
             "name": "Shohei Nakajima",
